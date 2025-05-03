@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stars",
+  "info": {
+    "singularName": "star",
+    "pluralName": "stars",
+    "displayName": "star"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "star": {
+      "type": "string"
+    },
+    "val": {
+      "type": "integer"
+    }
+  }
+}
