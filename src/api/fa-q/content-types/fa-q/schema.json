@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fa_qs",
+  "info": {
+    "singularName": "fa-q",
+    "pluralName": "fa-qs",
+    "displayName": "FAQs"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "question": {
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "awser": {
+      "type": "text"
+    }
+  }
+}

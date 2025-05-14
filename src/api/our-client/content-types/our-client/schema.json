@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "our_clients",
+  "info": {
+    "singularName": "our-client",
+    "pluralName": "our-clients",
+    "displayName": "Our Clients"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "CompanyName": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "imageLogo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
